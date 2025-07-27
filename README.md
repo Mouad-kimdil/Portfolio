@@ -193,11 +193,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **Mouad Kimdil**
-- Email: mouad.kimdil7@gmail.com
 - Location: Marrakech, Morocco
 - GitHub: [Mouad-kimdil](https://github.com/Mouad-kimdil)
 - School: 1337 Coding School (42 Network)
 
 ---
-
-Built with ❤️ using React and modern web technologies.
