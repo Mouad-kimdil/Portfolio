@@ -6,7 +6,7 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div style={{ paddingTop: '80px' }}>
+    <div>
       <Navbar />
       <Home />
       <WhatIDo />
