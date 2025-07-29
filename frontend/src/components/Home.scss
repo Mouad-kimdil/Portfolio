@@ -124,7 +124,7 @@
         transform: scale(1.02);
       }
     }
-    
+
     // Add subtle glow effect
     &::after {
       content: '';
@@ -145,28 +145,57 @@
     flex-direction: column;
     text-align: center;
     padding: 1rem;
+    min-height: auto;
     
     .hero-content {
       order: 2;
-      padding: 2rem 1rem;
+      padding: 1rem;
+      max-width: 100%;
       
       h1 {
-        font-size: clamp(2.5rem, 10vw, 4rem);
-        margin-bottom: 1.5rem;
+        font-size: clamp(2rem, 8vw, 3rem);
+        margin-bottom: 1rem;
+        line-height: 1.2;
       }
       
       p {
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin-bottom: 1.5rem;
+        max-width: 100%;
       }
     }
     
     .hero-image {
       order: 1;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       
       img {
-        max-height: 50vh;
+        width: 70%;
+        height: 40vh;
+        max-height: 300px;
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    padding: 0.5rem;
+    
+    .hero-content {
+      padding: 0.5rem;
+      
+      h1 {
+        font-size: clamp(1.8rem, 7vw, 2.5rem);
+      }
+      
+      p {
+        font-size: 0.9rem;
+      }
+    }
+    
+    .hero-image {
+      img {
+        width: 80%;
+        height: 35vh;
       }
     }
   }
