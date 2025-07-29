@@ -104,6 +104,38 @@
     }
   }
   
+  @media (max-width: 1024px) and (min-width: 769px) {
+    padding: 3rem 1.5rem;
+    
+    h2 {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      margin-bottom: 3rem;
+    }
+    
+    .development-cards {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      
+      .dev-card:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
+        max-width: 50%;
+        margin: 0 auto;
+      }
+    }
+    
+    .dev-card {
+      padding: 1.8rem;
+      
+      h3 {
+        font-size: 1.4rem;
+      }
+      
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  
   @media (max-width: 768px) {
     padding: 2rem 1rem;
     min-height: auto;

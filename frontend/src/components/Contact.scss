@@ -157,6 +157,43 @@
     }
   }
   
+  @media (max-width: 1024px) and (min-width: 769px) {
+    padding: 3rem 1.5rem;
+    
+    .section-title {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      margin-bottom: 2rem;
+    }
+    
+    .section-subtitle {
+      font-size: 1.1rem;
+      max-width: 600px;
+    }
+    
+    .contact-info {
+      gap: 1.5rem;
+      
+      .info-item {
+        font-size: 0.95rem;
+      }
+    }
+    
+    .contact-form {
+      max-width: 600px;
+      
+      .form-group {
+        label {
+          font-size: 0.95rem;
+        }
+        
+        input, textarea {
+          font-size: 0.95rem;
+          padding: 0.8rem;
+        }
+      }
+    }
+  }
+  
   @media (max-width: 768px) {
     padding: 2rem 1rem;
     

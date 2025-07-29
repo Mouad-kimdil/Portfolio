@@ -41,23 +41,29 @@ export default function Navbar() {
       {isMenuOpen && <div className="menu-overlay" onClick={closeMenu}></div>}
       
       <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
-        <div className="menu-header">
-          <h3>Navigation</h3>
-          <button className="close-btn" onClick={closeMenu}>✕</button>
-        </div>
-        <div className="menu-items">
-          <a href="#work" onClick={closeMenu}>
-            <span className="menu-icon">💼</span>
-            <span>Work</span>
-          </a>
-          <a href="#experience" onClick={closeMenu}>
-            <span className="menu-icon">🎓</span>
-            <span>Experience</span>
-          </a>
-          <a href="#contact" onClick={closeMenu}>
-            <span className="menu-icon">📧</span>
-            <span>Contact</span>
-          </a>
+        <a href="#work" onClick={closeMenu}>Work</a>
+        <a href="#experience" onClick={closeMenu}>Experience</a>
+        <a href="#contact" onClick={closeMenu}>Contact</a>
+        
+        <div className="mobile-menu-content">
+          <div className="menu-header">
+            <h3>Navigation</h3>
+            <button className="close-btn" onClick={closeMenu}>✕</button>
+          </div>
+          <div className="menu-items">
+            <a href="#work" onClick={closeMenu}>
+              <span className="menu-icon">💼</span>
+              <span>Work</span>
+            </a>
+            <a href="#experience" onClick={closeMenu}>
+              <span className="menu-icon">🎓</span>
+              <span>Experience</span>
+            </a>
+            <a href="#contact" onClick={closeMenu}>
+              <span className="menu-icon">📧</span>
+              <span>Contact</span>
+            </a>
+          </div>
         </div>
       </div>
     </nav>
