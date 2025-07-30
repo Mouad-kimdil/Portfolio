@@ -17,7 +17,7 @@ export default function WhatIDo() {
     {
       icon: '🎮',
       title: 'Graphics & Game Programming',
-      description: '3D Raycasting Engines - Building game engines from scratch (like your cub3d)\nComputer Graphics - Implementing rendering algorithms and visual effects\nMathematical Programming - Linear algebra and geometric calculations',
+      description: '3D Raycasting Engines - Building game engines from scratch (like cub3d)\nComputer Graphics - Implementing rendering algorithms and visual effects\nMathematical Programming - Linear algebra and geometric calculations',
       link: 'https://github.com/Mouad-kimdil?tab=repositories'
     },
     {
